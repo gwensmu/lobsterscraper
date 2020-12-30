@@ -18,6 +18,12 @@ ruby lib/scrape.rb
 make profile_types
 ```
 
+## Checking types with Steep
+
+```
+make check_types
+```
+
 ### Getting type coverage stats
 
 ```
