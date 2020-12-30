@@ -1,0 +1,17 @@
+class LobstersScraper
+  @agent: untyped
+  @current_page: untyped
+  @links: Array[String]
+  @destination_file: String
+
+  def initialize: (?aggregator_url: String, ?file: String) -> String
+  def get_linked_resources: (?pages: Integer) -> Integer
+  def extract_linked_content: -> untyped
+
+  private
+  def get_links: (untyped page) -> Array[String]
+  def go_to_next_page: (untyped page) -> nil
+  def get_page_content: (String uri) -> String
+  def write_extracted_content: (String content, file: String) -> nil
+  def is_scrapable?: (untyped link) -> bool
+end
