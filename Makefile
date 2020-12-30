@@ -1,5 +1,5 @@
 profile_types: 
-	typeprof -Ilib lib/scrape.rb
+	typeprof -Ilib lib/scrape.rb > profile_types.output
 
 type_stats:
 	steep stats --log-level=fatal
