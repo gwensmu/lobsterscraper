@@ -1,6 +1,6 @@
 # Lobsters Scraper
 
-Visits a lobste.rs page URL, collects all the linked pages, and then scrapes the contents of the linked pages. The result is machine readable, not human readable. It was originally intended for use as training data for a ML project, but now I'm using it as a scratch project for testing types in ruby 3.0.0.
+Visits a lobste.rs page URL, collects all the linked pages, and then scrapes the contents of the linked pages. The result is machine readable, not human readable. It was originally intended as a throwaway script to collect training data for a ML project, but now I'm using it as a scratch project for testing static type support in Ruby 3.0.0.
 
 ## Next Steps
 
