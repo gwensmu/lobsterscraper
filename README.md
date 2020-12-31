@@ -18,7 +18,7 @@ ruby lib/scrape.rb
 make profile_types
 ```
 
-This dumps the generated types to profile_types.output, and then you can pick what you
+This dumps the generated types to `profile_types.output`, and then you can pick what you
 want for sig/scrape.rbs. The generated code serves as a scaffold, not a final product, so
 don't just dump the output in, as you'll overwrite more specific annotation added manually.
 
