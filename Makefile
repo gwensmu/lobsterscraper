@@ -1,5 +1,5 @@
 profile_types: 
-	typeprof -Ilib lib/scrape.rb > profile_types.output
+	bundle exec typeprof -Ilib lib/scrape.rb > profile_types.output
 
 type_stats:
 	bundle exec steep stats --log-level=fatal
