@@ -4,6 +4,8 @@ class LobstersScraper
   @links: Array[String]
   @destination_file: String
 
+  Mechanize: untyped
+
   def initialize: (?aggregator_url: String, ?file: String) -> String
   def get_linked_resources: (?pages: Integer) -> Integer
   def extract_linked_content: -> untyped
